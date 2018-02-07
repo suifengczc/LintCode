@@ -7,7 +7,7 @@ public class _014_BinarySearch {
         int end = nums.length - 1;
         int mid;
         while (start <= end) {
-            mid = start + ((end - start) / 1);
+            mid = start + ((end - start) / 2);
             if (target <= nums[mid]) {
                 end = mid - 1;
             } else {
