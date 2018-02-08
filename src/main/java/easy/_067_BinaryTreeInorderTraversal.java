@@ -30,12 +30,17 @@ public class _067_BinaryTreeInorderTraversal {
     /*
      * @param root: A Tree
      * @return: Inorder in ArrayList which contains node values.
-     * 飞递归中序遍历解法
+     * 非递归中序遍历解法
      */
     public List<Integer> inorderTraversal(TreeNode root) {
         // write your code here
         List<Integer> result = new ArrayList<>();
         Stack<TreeNode> stack = new Stack<>();
-        while (!stack.empty())
+        TreeNode node = root;
+        while (!stack.empty() || node != null) {
+            while (node != null) {
+                stack.push(node);
+            }
+        }
     }
 }
