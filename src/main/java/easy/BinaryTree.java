@@ -49,11 +49,15 @@ public class BinaryTree {
         TreeNode nodeD = new TreeNode(4, "D");
         TreeNode nodeE = new TreeNode(5, "E");
         TreeNode nodeF = new TreeNode(6, "F");
+        TreeNode nodeG = new TreeNode(7, "H");
+        TreeNode nodeH = new TreeNode(8, "G");
         root.leftChild = nodeB;
         root.rightChild = nodeC;
         nodeB.leftChild = nodeD;
         nodeB.rightChild = nodeE;
         nodeC.rightChild = nodeF;
+        nodeD.leftChild = nodeG;
+        nodeD.rightChild = nodeH;
     }
 
     /**
@@ -75,9 +79,9 @@ public class BinaryTree {
 
     public void inOrder(TreeNode node) {
         if (node != null) {
-            preOrder(node.leftChild);
+            inOrder(node.leftChild);
             visited(node);
-            preOrder(node.rightChild);
+            inOrder(node.rightChild);
         }
     }
 
@@ -89,8 +93,8 @@ public class BinaryTree {
 
     public void postOrder(TreeNode node) {
         if (node != null) {
-            preOrder(node.leftChild);
-            preOrder(node.rightChild);
+            postOrder(node.leftChild);
+            postOrder(node.rightChild);
             visited(node);
         }
     }
@@ -172,7 +176,7 @@ public class BinaryTree {
 
     private void visited(TreeNode node) {
         node.isVisited = true;
-        System.out.println(node.data + "," + node.key);
+        System.out.print(node.data + "-" + node.key+"  ");
     }
 
     /**
@@ -208,13 +212,16 @@ public class BinaryTree {
         TreeNode root = binaryTree.root;
         binaryTree.createBinaryTree(root);
         System.out.println("tree height = "+binaryTree.height(root)+" tree size = "+binaryTree.size(root));
-        binaryTree.preOrder(root);
-        System.out.println("*******");
-        binaryTree.nonRecPreOrder(root);
-        System.out.println("*******");
-        binaryTree.nonRecInOrder(root);
-        System.out.println("-------------");
+        binaryTree.postOrder(root);
+        System.out.println("\n"+"*******");
         binaryTree.nonRecPostOrder(root);
+//        binaryTree.preOrder(root);
+//        System.out.println("*******");
+//        binaryTree.nonRecPreOrder(root);
+//        System.out.println("*******");
+//        binaryTree.nonRecInOrder(root);
+//        System.out.println("-------------");
+//        binaryTree.nonRecPostOrder(root);
     }
 
 }

@@ -56,11 +56,11 @@ public class _066_BinaryTreePreorderTraversal {
         TreeNode node = root;
         while (node != null || !stack.empty()) {
             while (node != null) {
-                stack.push(node);
-                result.add(node.val);
+                stack.push(node);//从根节点开始将所有的左节点按顺序压入栈顶，直到当前路径先的叶子节点跳出循环
+                result.add(node.val);//记录栈顶的node，前序遍历从根节点开始
                 node = node.left;
             }
-            if (!stack.empty()) {
+            if (!stack.empty()) {//当栈非空时，从栈顶取出节点获取其右节点，再以该节点为根节点依次获取其子树的左节点，直至所有节点出栈
                 node = stack.pop();
                 node = node.right;
             }
