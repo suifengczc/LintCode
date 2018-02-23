@@ -1,11 +1,7 @@
 package easy;
 
-import com.sun.org.apache.xpath.internal.WhitespaceStrippingElementMatcher;
-
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.Map;
-import java.util.Set;
 
 public class _100_RemoveDuplicatesFromSortedArray {
     /*

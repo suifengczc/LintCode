@@ -1,6 +1,6 @@
 package easy;
 
-public class _101_RemoveDuplicatesFromSortedArrayii {
+public class _101_RemoveDuplicatesFromSortedArrayII {
     /**
      * @param nums: a array of integers
      * @return : return an integer
