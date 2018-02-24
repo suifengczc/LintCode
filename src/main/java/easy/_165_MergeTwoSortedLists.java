@@ -1,8 +1,5 @@
 package easy;
 
-import jdk.nashorn.internal.ir.WhileNode;
-import sun.plugin2.util.NativeLibLoader;
-
 public class _165_MergeTwoSortedLists {
 
     private static class ListNode {
