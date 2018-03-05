@@ -10,7 +10,14 @@ public class _185_MatrixZigzagTraversal {
         int height = matrix.length;
         int width = matrix[0].length;
         int[] result = new int[height * width];
+        int xIndex = 0;
+        int yIndex = 0;
+        result[0] = matrix[0][0];
+        while (xIndex < width && yIndex < height) {
+            if (xIndex + 1 < width) {
 
+            }
+        }
         return null;
     }
 }
