@@ -3,27 +3,6 @@ package easy;
 import jdk.nashorn.internal.ir.WhileNode;
 
 public class _096_PartitionList {
-    /**
-     * Definition for ListNode.
-     * public class ListNode {
-     * int val;
-     * ListNode next;
-     * ListNode(int val) {
-     * this.val = val;
-     * this.next = null;
-     * }
-     * }
-     */
-    public static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int val) {
-            this.val = val;
-            this.next = null;
-        }
-    }
-
     /*
      * @param head: The first node of linked list
      * @param x: An integer

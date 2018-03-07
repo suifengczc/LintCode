@@ -40,7 +40,7 @@ public class _181_FlipBits {
     public int bitSwapRequired_1(int a, int b) {
         int count = 0;
         for (int c = a ^ b; c != 0; c = c >>> 1) {
-            count += c & 1;
+            count += c & 1;//将异或后的结果重复右移和1相与
         }
         return count;
     }

@@ -1,16 +1,6 @@
 package easy;
 
 public class _174_RemoveNthNodeFromEndOfList {
-    private class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int val) {
-            this.val = val;
-            this.next = null;
-        }
-    }
-
     /*
      * @param head: The first node of linked list.
      * @param n: An integer

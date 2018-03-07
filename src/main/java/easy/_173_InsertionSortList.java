@@ -6,16 +6,6 @@ import java.util.Comparator;
 import java.util.List;
 
 public class _173_InsertionSortList {
-    private class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int val) {
-            this.val = val;
-            this.next = null;
-        }
-    }
-
     /*
      * @param head: The first node of linked list.
      * @return: The head of linked list.

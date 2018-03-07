@@ -4,27 +4,6 @@ import com.sun.org.apache.bcel.internal.generic.IF_ACMPEQ;
 
 public class _097_MaximumDepthOfBinaryTree {
     /**
-     * Definition of TreeNode:
-     * public class TreeNode {
-     *     public int val;
-     *     public TreeNode left, right;
-     *     public TreeNode(int val) {
-     *         this.val = val;
-     *         this.left = this.right = null;
-     *     }
-     * }
-     */
-
-    public class TreeNode {
-        public int val;
-        public TreeNode left, right;
-        public TreeNode(int val) {
-            this.val = val;
-            this.left = this.right = null;
-        }
-    }
-
-    /**
      * @param root: The root of binary tree.
      * @return: An integer.
      */

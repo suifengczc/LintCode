@@ -2,16 +2,6 @@ package easy;
 
 public class _165_MergeTwoSortedLists {
 
-    private static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int val) {
-            this.val = val;
-            this.next = null;
-        }
-    }
-
     /*
      * @param l1: ListNode l1 is the head of the linked list
      * @param l2: ListNode l2 is the head of the linked list

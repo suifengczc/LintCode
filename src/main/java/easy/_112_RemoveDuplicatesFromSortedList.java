@@ -2,16 +2,6 @@ package easy;
 
 public class _112_RemoveDuplicatesFromSortedList {
 
-    public class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-            next = null;
-        }
-    }
-
     /*
      * @param head: head is the head of the linked list
      * @return: head of linked list

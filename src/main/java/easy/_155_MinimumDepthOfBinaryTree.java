@@ -2,16 +2,6 @@ package easy;
 
 public class _155_MinimumDepthOfBinaryTree {
 
-    public class TreeNode {
-        public int val;
-        public TreeNode left, right;
-
-        public TreeNode(int val) {
-            this.val = val;
-            this.left = this.right = null;
-        }
-    }
-
     /*
      * @param root: The root of binary tree
      * @return: An integer

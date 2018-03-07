@@ -5,16 +5,6 @@ import com.sun.org.apache.bcel.internal.generic.IF_ACMPEQ;
 import java.util.List;
 
 public class _166_NthToLastNodeInList {
-    private class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int val) {
-            this.val = val;
-            this.next = null;
-        }
-    }
-
     /*
      * @param head: The first node of linked list.
      * @param n: An integer

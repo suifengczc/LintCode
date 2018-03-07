@@ -5,26 +5,6 @@ import java.util.List;
 import java.util.Stack;
 
 public class _066_BinaryTreePreorderTraversal {
-    /**
-     * Definition of TreeNode:
-     * public class TreeNode {
-     * public int val;
-     * public TreeNode left, right;
-     * public TreeNode(int val) {
-     * this.val = val;
-     * this.left = this.right = null;
-     * }
-     * }
-     */
-    public static class TreeNode {
-        public int val;
-        public TreeNode left, right;
-
-        public TreeNode(int val) {
-            this.val = val;
-            this.left = this.right = null;
-        }
-    }
     /*
      * @param root: A Tree
      * @return: Preorder in ArrayList which contains node values.

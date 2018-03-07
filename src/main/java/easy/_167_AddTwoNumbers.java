@@ -6,15 +6,6 @@ public class _167_AddTwoNumbers {
      * 例如：1->2->3->null 表示321;4->5->6->null 表示654
      * l1+l2 即321+654 = 975 表示为5->7->9->null
      */
-    private class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int val) {
-            this.val = val;
-            this.next = null;
-        }
-    }
     /*
      * @param l1: the first list
      * @param l2: the second list
