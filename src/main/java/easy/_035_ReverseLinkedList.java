@@ -1,5 +1,7 @@
 package easy;
 
+import common.ListNode;
+
 public class _035_ReverseLinkedList {
     //此路不通
 //    public ListNode reverse(ListNode head) {

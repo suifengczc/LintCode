@@ -1,5 +1,7 @@
 package easy;
 
+import common.TreeNode;
+
 public class _245_Subtree {
     /*
      * @param T1: The roots of binary tree T1.

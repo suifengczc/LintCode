@@ -14,7 +14,14 @@ public class _420_CountAndSay {
             int len = lastString.length();
             int count = 1;
             if (len > 1) {
-                for (int i = 0; i < len - 1; i++) {
+                for (int i = 0; i < len; i++) {
+                    if (i == len - 1 ) {
+                        if (lastString.charAt(i) != lastString.charAt(i - 1)) {
+                            sb.append(1);
+                            sb.append(lastString.charAt(i));
+                        }
+                        break;
+                    }
                     if (lastString.charAt(i) == lastString.charAt(i + 1)) {
                         count++;
                         if (i == len - 2) {
@@ -39,7 +46,7 @@ public class _420_CountAndSay {
     }
 
     public static void main(String[] args) {
-        int a = 3;
+        int a = 4;
         System.out.println(countAndSay(a));
     }
 }

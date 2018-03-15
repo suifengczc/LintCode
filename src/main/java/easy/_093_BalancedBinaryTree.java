@@ -1,5 +1,7 @@
 package easy;
 
+import common.TreeNode;
+
 public class _093_BalancedBinaryTree {
     /*
      * @param root: The root of binary tree.

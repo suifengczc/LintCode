@@ -1,6 +1,7 @@
 package easy;
 
-import java.time.temporal.Temporal;
+import common.ListNode;
+
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;

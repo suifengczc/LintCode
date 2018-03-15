@@ -1,6 +1,6 @@
 package easy;
 
-import jdk.nashorn.internal.ir.WhileNode;
+import common.ListNode;
 
 public class _096_PartitionList {
     /*

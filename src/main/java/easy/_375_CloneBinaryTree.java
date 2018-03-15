@@ -1,5 +1,7 @@
 package easy;
 
+import common.TreeNode;
+
 public class _375_CloneBinaryTree {
     /*
      * @param root: The root of binary tree

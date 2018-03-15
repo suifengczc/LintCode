@@ -1,5 +1,7 @@
 package easy;
 
+import common.ListNode;
+
 public class _167_AddTwoNumbers {
     /**
      * l1和l2是表示两个数组的链表

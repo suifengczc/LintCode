@@ -1,5 +1,7 @@
 package easy;
 
+import common.TreeNode;
+
 public class _175_InvertBinaryTree {
     /*
      * @param root: a TreeNode, the root of the binary tree

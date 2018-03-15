@@ -1,4 +1,4 @@
-package easy;
+package common;
 
 public class TreeNode {
     public int val;

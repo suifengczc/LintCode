@@ -1,5 +1,7 @@
 package easy;
 
+import common.TreeNode;
+
 import java.util.List;
 
 public class _376_BinaryTreePathSum {

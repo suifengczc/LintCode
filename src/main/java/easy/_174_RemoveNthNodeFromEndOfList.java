@@ -1,5 +1,7 @@
 package easy;
 
+import common.ListNode;
+
 public class _174_RemoveNthNodeFromEndOfList {
     /*
      * @param head: The first node of linked list.

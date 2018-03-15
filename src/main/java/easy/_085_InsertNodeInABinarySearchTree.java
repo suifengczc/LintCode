@@ -1,5 +1,7 @@
 package easy;
 
+import common.TreeNode;
+
 public class _085_InsertNodeInABinarySearchTree {
     /*
      * @param root: The root of the binary search tree.

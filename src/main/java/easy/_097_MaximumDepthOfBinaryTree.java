@@ -1,6 +1,6 @@
 package easy;
 
-import com.sun.org.apache.bcel.internal.generic.IF_ACMPEQ;
+import common.TreeNode;
 
 public class _097_MaximumDepthOfBinaryTree {
     /**

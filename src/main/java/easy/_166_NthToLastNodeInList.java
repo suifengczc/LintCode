@@ -1,8 +1,6 @@
 package easy;
 
-import com.sun.org.apache.bcel.internal.generic.IF_ACMPEQ;
-
-import java.util.List;
+import common.ListNode;
 
 public class _166_NthToLastNodeInList {
     /*

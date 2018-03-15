@@ -1,5 +1,7 @@
 package easy;
 
+import common.ListNode;
+
 public class _112_RemoveDuplicatesFromSortedList {
 
     /*
