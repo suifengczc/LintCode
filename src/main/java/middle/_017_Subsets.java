@@ -9,6 +9,7 @@ public class _017_Subsets {
      */
     public List<List<Integer>> subsets(int[] nums) {
         // write your code here
+        // TODO 学习搜索优化
         if (nums == null) {
             return null;
         }
