@@ -1,4 +1,4 @@
-package easy;
+package middle;
 
 public class _415_ValidPalindrome {
     /**
