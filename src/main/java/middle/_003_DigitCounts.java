@@ -1,53 +1,26 @@
 package middle;
 
+/**
+ * 3. 统计数字
+ * 计算数字k在0到n中的出现的次数，k可能是0~9的一个值
+ *
+ * 样例
+ * 例如n=12，k=1，在 [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]，
+ * 我们发现1出现了5次 (1, 10, 11, 12)
+ */
 public class _003_DigitCounts {
-    /*
-     * @param : An integer
-     * @param : An integer
+    /**
+     * 思路：
+     *
+     * @param k: An integer
+     * @param n: An integer
      * @return: An integer denote the count of digit k in 1..n
      */
     public int digitCounts(int k, int n) {
         // write your code here
-        // TODO 未完待续
-        int count = 0;
-        int quotient = n / 10;
-        int remain = n % 10;
-        if (quotient > k) {
-            count = count + quotient + 10;
-            if (remain >= k) {
-                count = count + 1;
-            }
-        } else if (quotient == k) {
-            count = count + quotient;
-            if (remain >= k) {
-                count = count + remain + 2;
-            }
-        } else {
-            count = count + quotient;
-            if (remain >= k) {
-                count = count + 1;
-            }
+        if (n < 10) {
+            return 1;
         }
-        return count;
+        return 1;
     }
-
-    public int test(int k, int n) {
-        int count = 0;
-        int base = 1;
-        while (n / base >= 1) {
-            int curBit = n % (base * 10) / base;
-            int higher = n / (base * 10);
-            int lower = n % base;
-            if (curBit < k) {
-                count += higher * base;
-            } else if (curBit == k) {
-                count += higher * base + lower + 1;
-            } else {
-                count += (higher + 1) * base;
-            }
-            base *= 10;
-        }
-        return count;
-    }
-
 }
